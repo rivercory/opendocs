@@ -1,6 +1,6 @@
 {
   "name": "opendocs",
-  "version": "0.0.1",
+  "version": "beta",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
