@@ -2,11 +2,11 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 const config = {
   title: 'Opendocs',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Opendocs',
   favicon: 'img/opendocs_round.svg',
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://opdocs.vercel.app',
   baseUrl: '/',
-  organizationName: 'facebook',
+  organizationName: 'rivercory',
   projectName: 'Opendocs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -21,12 +21,12 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/rivercory/opendocs/tree/master/',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/rivercory/opendocs/tree/master/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -41,7 +41,7 @@ const config = {
       navbar: {
         title: 'Opendocs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Opendocs Logo',
           src: 'img/opendocs_round.svg',
         },
         items: [
@@ -53,14 +53,14 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/rivercory/opendocs',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
@@ -75,32 +75,11 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/rivercory/opendocs',
               },
             ],
-          },
+          }
         ]
       },
       prism: {
