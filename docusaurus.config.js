@@ -4,7 +4,7 @@ const config = {
   title: 'Opendocs',
   tagline: 'Opendocs',
   favicon: 'img/opendocs_round.svg',
-  url: 'https://opdocs.vercel.app',
+  url: 'https://opdocs.pages.dev',
   baseUrl: '/',
   organizationName: 'rivercory',
   projectName: 'Opendocs',
